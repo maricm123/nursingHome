@@ -7,12 +7,12 @@
             <div class="line3"></div>
         </div>
         <ul class="nav-links">
-            <li><router-link  to="/">Početna</router-link></li>
-            <li><router-link  :to="{ name: 'Onama' }">O nama</router-link></li>
-            <li><router-link  :to="{ name: 'Usluge' }">Usluge</router-link></li>
-            <li><router-link  :to="{ name: 'Ishrana' }">Ishrana</router-link></li>
-            <li><router-link  :to="{ name: 'Galerija' }">Galerija</router-link></li>
-            <li><router-link  :to="{ name: 'Kontakt' }">Kontakt</router-link></li>         
+            <li id="link" @click="linkToggle"><router-link  to="/">Početna</router-link></li>
+            <li id="link" @click="linkToggle"><router-link  :to="{ name: 'Onama' }">O nama</router-link></li>
+            <li id="link" @click="linkToggle"><router-link  :to="{ name: 'Usluge' }">Usluge</router-link></li>
+            <li id="link" @click="linkToggle"><router-link  :to="{ name: 'Ishrana' }">Ishrana</router-link></li>
+            <li id="link" @click="linkToggle"><router-link  :to="{ name: 'Galerija' }">Galerija</router-link></li>
+            <li id="link" @click="linkToggle"><router-link  :to="{ name: 'Kontakt' }">Kontakt</router-link></li>         
         </ul>
     </nav>
 </div>
@@ -29,20 +29,34 @@ export default {
         var navLinks = document.querySelector(".nav-links");
         var links = document.querySelectorAll(".nav-links li");
 
-        hamburger.addEventListener('click', ()=>{
+        
         //Animate Links
+            hamburger.classList.toggle("toggle");
             navLinks.classList.toggle("open");
+
             links.forEach(link => {
                 link.classList.toggle("fade");
-            });
-
+            
+            
             //Hamburger Animation
-            hamburger.classList.toggle("toggle");
-        });
+
+           
+            
+        })
+      },
+        linkToggle() {
+            var links = document.getElementById("link");
+            var navLinks = document.querySelector(".nav-links");
+
+                this.hamburgerToggle()
+            
+        }
+        
+        
             
       }
   }
-}
+
 </script>
 
 
@@ -89,7 +103,7 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: rgb(251, 251, 251);
+    color: rgb(3, 3, 3);
 }
 
 
@@ -111,8 +125,9 @@ nav{
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
     nav{
-        position: fixed;
-        z-index: 3;
+        /* position: fixed; */
+        z-index: 1000;
+        
     }
     .hamburger{
         display:block;
@@ -125,9 +140,10 @@ nav{
         transition: all 0.7s ease;
     }
     .nav-links{
-        position: fixed;
-        background: #ffffff;
-        height: 100vh;
+
+        
+        background: #ece8e8;
+        height: 80vh;
         width: 100%;
         flex-direction: column;
         clip-path: circle(50px at 90% -20%);
@@ -144,26 +160,26 @@ nav{
         opacity: 0;
     }
     .nav-links li:nth-child(1){
-        transition: all 0.5s ease 0.2s;
+        transition: all 0.5s ease 0.1s;
     }
     .nav-links li:nth-child(2){
-        transition: all 0.5s ease 0.4s;
+        transition: all 0.5s ease 0.2s;
     }
     .nav-links li:nth-child(3){
-        transition: all 0.5s ease 0.6s;
+        transition: all 0.5s ease 0.3s;
     }
     .nav-links li:nth-child(4){
-        transition: all 0.5s ease 0.7s;
+        transition: all 0.5s ease 0.4s;
     }
     .nav-links li:nth-child(5){
-        transition: all 0.5s ease 0.8s;
+        transition: all 0.5s ease 0.5s;
     }
     .nav-links li:nth-child(6){
-        transition: all 0.5s ease 0.9s;
+        transition: all 0.5s ease 0.6s;
         margin: 0;
     }
     .nav-links li:nth-child(7){
-        transition: all 0.5s ease 1s;
+        transition: all 0.5s ease 0.7s;
         margin: 0;
     }
     li.fade{

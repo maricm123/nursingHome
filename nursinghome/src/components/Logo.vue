@@ -9,4 +9,10 @@
         margin-right: auto;
         width: 5%;
 }
+
+@media screen and (max-width: 800px) {
+    .center {
+        width: 20%;
+    }
+}
 </style>

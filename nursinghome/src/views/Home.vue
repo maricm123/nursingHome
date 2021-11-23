@@ -1,11 +1,25 @@
 <template>
   <div>
-    <h1>aaaaaaaaaaa</h1>
-
-
-
-
-    <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+    <div id="app">
+    <v-app id="inspire">
+      <v-carousel
+      cycle :interval="interval"
+      height="600"
+      hide-delimiter-background
+      show-arrows-on-hover
+      >
+      <v-carousel-item
+        v-for="(item,i) in items"
+        :key="i"
+        :src="item.src"
+        
+        
+      ></v-carousel-item>
+      
+      
+    </v-carousel>
+  </v-app>
+</div>
   </div>
 </template>
 
@@ -14,11 +28,32 @@
 
   export default {
     name: 'Home',
+  data () {
+    return {
+      interval: 3000,
+      items: [
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+          
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+         
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+          
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+         
+        },
+      ],
 
-    components: {
-      
-    },
-  }
+    }
+  },
+}
+  
 </script>
 
 <style>

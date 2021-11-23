@@ -1,6 +1,5 @@
 <template>
   <div>
-    
     <Logo />
     <Navigation />
     <router-view />
