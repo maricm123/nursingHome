@@ -1,5 +1,6 @@
 <template>
 <div>
+    
     <nav>
         <div class="hamburger" id="hamburger" @click="hamburgerToggle">
             <div class="line1"></div>
@@ -18,10 +19,8 @@
 </div>
 </template>
 
-
 <script>
 export default {
-
   name: "Navigation",
   methods: {
       hamburgerToggle() {
@@ -29,49 +28,28 @@ export default {
         var navLinks = document.querySelector(".nav-links");
         var links = document.querySelectorAll(".nav-links li");
 
-        
-        //Animate Links
             hamburger.classList.toggle("toggle");
             navLinks.classList.toggle("open");
 
             links.forEach(link => {
-                link.classList.toggle("fade");
-            
-            
-            //Hamburger Animation
-
-           
-            
+                link.classList.toggle("fade");    
         })
       },
         linkToggle() {
             var links = document.getElementById("link");
             var navLinks = document.querySelector(".nav-links");
-
-                this.hamburgerToggle()
-            
+                this.hamburgerToggle()     
         }
-        
-        
-            
+      
       }
   }
-
 </script>
+<style lang="scss">
 
-
-<style>
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    font-weight: 300;
-}
-body{
-    overflow-x: hidden;
+// body{
+//     overflow-x: hidden;
     
-}
+// }
 nav{
     height: 6rem;
     width: 100vw;
@@ -125,7 +103,7 @@ nav{
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
     nav{
-        /* position: fixed; */
+        position: relative;
         z-index: 1000;
         
     }
@@ -140,8 +118,8 @@ nav{
         transition: all 0.7s ease;
     }
     .nav-links{
-
         
+        position: absolute;
         background: #ece8e8;
         height: 80vh;
         width: 100%;

@@ -3,7 +3,7 @@
     <Logo />
     <Navigation />
     <router-view />
-    <Footer />
+    <Footer class="footer" />
   </div>
 </template>
 
@@ -30,4 +30,5 @@ export default {
 * {
   font-family: 'Bebas Neue', cursive;
 }
+
 </style>

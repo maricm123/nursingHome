@@ -2,7 +2,7 @@
     <img src="../assets/logo.png" alt="Paris" class="center">
 </template>
 
-<style>
+<style scoped>
     .center {
         display: block;
         margin-left: auto;
