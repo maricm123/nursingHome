@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "nursinghome-8dfbb"
-  }
+    "default": "nursinghome-e1c6e",
+    "staging": "nursinghome-e1c6e"
+  },
+  "targets": {}
 }

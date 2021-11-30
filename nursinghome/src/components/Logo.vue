@@ -1,5 +1,8 @@
 <template>
+    <div>
     <img src="../assets/logo.png" alt="Paris" class="center">
+    <p>aaaaaaaaaaa</p>
+    </div>
 </template>
 
 <style scoped>
@@ -9,10 +12,15 @@
         margin-right: auto;
         width: 5%;
 }
+    p {
+        float: right;
+        
+    }
 
 @media screen and (max-width: 800px) {
     .center {
         width: 20%;
     }
+
 }
 </style>

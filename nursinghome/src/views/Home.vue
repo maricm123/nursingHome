@@ -138,9 +138,7 @@ import image4 from '../assets/VRF_0500.jpg'
   
 </script>
 
-<style lang="scss">
-
-
+<style lang="scss" scoped>
 
 #prvi-tekst {
   

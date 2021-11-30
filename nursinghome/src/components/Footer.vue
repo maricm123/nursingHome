@@ -4,16 +4,18 @@
 
 <div class="top_header">
   <section>
-    <span><i class="fa fa-map-marker"></i></span>
-    <span>Street, full address, state/province, country, pincode</span>
+    <span><i class="fa fa-map-marker"></i></span> 
+    <span>Srpskih dobrovoljaca 1912-1918, br. 46 <br> Rumenka, Novi Sad</span> 
+    
   </section>
   <section>
     <span><i class="fa fa-phone"></i></span>
-    <span>(00) 0000 0000</span>
+    <span> +381 64-328-98-37 <br> 021/62-15-852</span> 
+
   </section>
   <section>
     <span><i class="fa fa-envelope"></i></span>
-    <span>info@websitename.com</span>
+    <span>klisaricdom@gmail.com</span>
   </section>
 </div>
 <span class="border-shape"></span>
@@ -21,7 +23,6 @@
     <section >
     <a href="#"><i style="color: black;" class="fab fa-facebook fa-3x "></i></a>
     <a href="#"><i style="color: black" class="fab fa-instagram fa-3x"></i></a>
-    
     </section>
     <section class="navigation">
     <!-- <router-link style="color: black"   to="/">Početna</router-link>
@@ -123,8 +124,10 @@ footer{
 }
 
 .top_header span{
-padding:0 1rem;
-}
+  padding:0 1rem;
+  font-size: 20px;
+
+  }
 
 .top_header .fa{
   color:blue;

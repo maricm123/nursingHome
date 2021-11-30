@@ -2,13 +2,13 @@ import firebase from 'firebase/compat/app'
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB3ugsZdTkCkWJ2gfk8MrkmnKlQqgHD5cA",
-    authDomain: "nursinghome-8dfbb.firebaseapp.com",
-    projectId: "nursinghome-8dfbb",
-    storageBucket: "nursinghome-8dfbb.appspot.com",
-    messagingSenderId: "950201848724",
-    appId: "1:950201848724:web:851bb6580b97d76f137581",
-    measurementId: "G-LGTS5L7ZE4"
+  apiKey: "AIzaSyDSJVZZiand8tR67S2uIzPoiTTW-HDqfdM",
+  authDomain: "nursinghome-e1c6e.firebaseapp.com",
+  projectId: "nursinghome-e1c6e",
+  storageBucket: "nursinghome-e1c6e.appspot.com",
+  messagingSenderId: "1059718571551",
+  appId: "1:1059718571551:web:6d6df70e5db458cdab972a",
+  measurementId: "G-GSY6FM9DG9"
   };
   
   // Initialize Firebase

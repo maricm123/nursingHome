@@ -1,6 +1,6 @@
 <template>
 <div>
-  <img class="slika" src="../assets/slika.jpg">
+  <img class="slika" src="../assets/slika-min.jpg">
   <v-container>
     <v-row gutters>
       <v-col cols="12" sm="6" md="8" class="prvideo">

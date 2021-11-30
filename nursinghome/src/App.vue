@@ -3,6 +3,7 @@
     <Logo />
     <Navigation />
     <router-view />
+    <Call />
     <Footer class="footer" />
   </div>
 </template>
@@ -11,7 +12,7 @@
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import Logo from './components/Logo'
-
+import Call from './components/Call'
 
 export default {
   name: 'App',
@@ -20,7 +21,7 @@ export default {
     //
   }),
   components: {
-      Navigation, Footer, Logo
+      Navigation, Footer, Logo, Call
   },
 };
 </script>
