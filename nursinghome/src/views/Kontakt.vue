@@ -44,6 +44,11 @@
 
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
+#prvi {
+  padding: 40px;
+  text-align: center;
+}
+
 h1 {
   font-size: 25px;
   font-weight: 300;

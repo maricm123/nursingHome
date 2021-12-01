@@ -5,6 +5,16 @@
 </template>
 
 <style scoped>
+@media screen and (min-width:800px) {
+    .fa-phone {
+    display: none;
+    }
+
+    #mybutton {
+    display: none;
+    }
+}
+
 @media screen and (max-width:800px) {
     .fa-phone {
     background-color: rgb(0, 0, 255);

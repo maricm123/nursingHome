@@ -50,7 +50,7 @@
 </div> -->
 
 
-<div class="columns is-gapless is-multiline is-desktop" id="prvi">
+<div class="columns is-gapless is-multiline is-desktop" id="prvii">
   <div class="column is-half" >
   <div class="naslov">Pogledaj galeriju</div>
   <hr class="title-underline" style="background: blue;" />
@@ -72,7 +72,7 @@
 
 
 
-<div class="columns is-gapless is-multiline is-desktop" id="prvi">
+<div class="columns is-gapless is-multiline is-desktop" id="prvii">
   
   <div class="column is-half" > 
     <img style="width: 600px;
@@ -92,7 +92,9 @@
 </div>
 
 
-
+<div class="mapa">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5613.664231913402!2d19.73064744517446!3d45.29161412719782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b138aa73e54b5%3A0x7f4570a753510f09!2sStaracki%20dom%20KLISARIC%20DOM!5e0!3m2!1ssr!2srs!4v1638349930233!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 
 
 
@@ -140,6 +142,15 @@ import image4 from '../assets/VRF_0500.jpg'
 
 <style lang="scss" scoped>
 
+iframe {
+  width: 100%;
+  padding: 30px;
+}
+
+img {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #prvi-tekst {
   
   font-size: 20px;
@@ -153,7 +164,7 @@ import image4 from '../assets/VRF_0500.jpg'
   text-align: center;
   margin-bottom: -2%;
 }
-#prvi {
+#prvii {
   margin: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
