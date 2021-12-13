@@ -21,9 +21,10 @@
 <span class="border-shape"></span>
   <div class="bottom_content">
     <section >
-    <a href="#"><i style="color: black;" class="fab fa-facebook fa-3x "></i></a>
-    <a href="#"><i style="color: black" class="fab fa-instagram fa-3x"></i></a>
+    <a href="https://www.facebook.com/klisaricdom/" target="_blank"><i style="color: black;" class="fab fa-facebook fa-3x " id="facebook"> Klisarić dom</i></a>
+    <!-- <a href="#"><i style="color: black" class="fab fa-instagram fa-3x"></i></a> -->
     </section>
+    <!-- <a href="">Aa </a> -->
     <section class="navigation">
     <!-- <router-link style="color: black"   to="/">Početna</router-link>
     <router-link style="color: black" :to="{ name: 'Onama' }">O nama</router-link>
@@ -52,11 +53,14 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+  #facebook {
+    font-size: 30px;
+    
+  }
 a{
   text-decoration:none;
   outline:none !important;
-  color:black
+  color:black;
 }
 
 .border-shape {
@@ -130,7 +134,7 @@ footer{
   }
 
 .top_header .fa{
-  color:blue;
+  color:#243e87;
   font-size:35px;
   }
 

@@ -7,15 +7,17 @@
     <hr class="title-underline" style="background: blue;" />
     <section>
     <span><i class="fa fa-map-marker"></i></span>
-    <span>Street, full address, state/province, country, pincode</span>
+    <span>                  Srpskih dobrovoljaca 1912-1918, br. 46
+            Rumenka, Novi Sad</span>
   </section>
   <section>
     <span><i class="fa fa-phone"></i></span>
-    <span>(00) 0000 0000</span>
+    <span>+381 64-328-98-37</span> <br>
+    <span>021/62-15-852</span>
   </section>
   <section>
     <span><i class="fa fa-envelope"></i></span>
-    <span>info@websitename.com</span>
+    <span>klisaricdom@gmail.com</span>
   </section>
   </div>
  

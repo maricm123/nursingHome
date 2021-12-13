@@ -17,7 +17,7 @@
 
 @media screen and (max-width:800px) {
     .fa-phone {
-    background-color: rgb(0, 0, 255);
+    background-color: #243e87;
     color: rgb(255, 255, 255);
     padding: 15px 15px;
     border-radius: 60%;

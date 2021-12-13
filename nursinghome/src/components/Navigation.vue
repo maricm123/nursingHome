@@ -51,7 +51,7 @@ export default {
     
 // }
 nav{
-    height: 6rem;
+    height: 4rem;
     width: 100vw;
     background-color: #f3f3f3;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -72,7 +72,7 @@ nav{
     padding: 0 0.9vw;
     justify-content: space-evenly;
     align-items: center;
-    color: black;
+    color: #243e87;
     font-weight: 100;
     
 }
@@ -81,7 +81,7 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: rgb(3, 3, 3);
+    color: #243e87;
 }
 
 
