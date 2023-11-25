@@ -25,6 +25,11 @@
 
 <script>
 import vueEasyLightbox from 'vue-easy-lightbox'
+import nova1_25112023 from '../assets/83C6BFBD-9CCC-48DA-BBA3-4A8B1C081C97.jpeg';
+import nova2_25112023 from '../assets/190CD897-EF4D-4036-A8B4-77CEA69E1B4C.jpeg';
+import nova3_25112023 from '../assets/D324037B-E8BE-4456-A67B-73F1F4CA9D47.jpeg';
+import nova4_25112023 from '../assets/747463EF-95CB-4EB7-BC29-362D6C236A01.jpeg';
+
 import soba from '../assets/VRF_0485-min.jpg';
 import soba1 from '../assets/VRF_0487-min.jpg';
 import soba2 from '../assets/VRF_0489-min.jpg';
@@ -90,6 +95,10 @@ export default {
       visible: false,
       index: 0,
         imgs:  [
+          nova1_25112023,
+          nova2_25112023,
+          nova3_25112023,
+          nova4_25112023,
           soba,
           soba1, 
           

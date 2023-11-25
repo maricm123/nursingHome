@@ -1,0 +1,10 @@
+npm install -g firebase-tools
+
+firebase login
+
+firebase use (ime projekta)  ili default
+
+-- pre ovoga instalirat potrebne pakete na novom okruzenju
+(npm install)
+
+firebase deploy
